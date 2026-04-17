@@ -44,7 +44,16 @@ body {
 
 }
 
-.header__nav a:hover{
+.post__link, a {
+    color: #FFF;
+    background-color: #ffb703;
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: 0.3s;
+}
+
+.header__nav a:hover,
+.post__link:hover {
     color: #FFF;
     background: #023047;
     
@@ -58,4 +67,32 @@ body {
     background: #ffffff;
     width: 920px;
     margin: 0 auto;
+}
+
+.posts {
+    width: 660px;
+    background: #FFF;
+    float: left;
+}
+
+.sidebar {
+    width: 240px;
+    background: orange;
+    float: right;
+}
+
+.footer {
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+
+.post {
+    padding: 20px;
+}
+
+.post__content {
+    margin: 15px;
+    
 }
